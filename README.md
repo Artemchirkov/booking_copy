@@ -32,7 +32,7 @@
    ```bash
    git clone [https://github.com/Artemchirkov/booking_copy.git](https://github.com/Artemchirkov/booking_copy.git)
    cd booking_copy
-  ```
+
 2. Создать файл окружения .env в корне проекта:
 
 ```
