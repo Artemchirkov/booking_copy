@@ -32,3 +32,25 @@
    ```bash
    git clone [https://github.com/Artemchirkov/booking_copy.git](https://github.com/Artemchirkov/booking_copy.git)
    cd booking_copy
+  ```
+2. Создать файл окружения .env в корне проекта:
+
+```
+DB_HOST=db
+DB_PORT=5432
+DB_USER=booking_user
+DB_PASS=booking_password
+DB_NAME=booking_db
+
+SECRET_KEY=YOUR_SUPER_SECRET_KEY_HERE
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=1440
+```
+
+3. Запустить контейнеры:
+```Bash
+
+docker compose up --build -d
+```
+4. Документация API:
+После запуска Swagger UI доступен по адресу: http://localhost:8000/docs
